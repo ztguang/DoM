@@ -1,0 +1,17 @@
+The improved algorithm of MPTCP is as follows.
+
+----------------------------------------------------------------------------
+Algorithm 2: Create sub-paths
+----------------------------------------------------------------------------
+  1: for locaddr in e0,e1,e2,e3 of src-node
+  2:   for remaddr in e0,e1,e2,e3 of dst-node
+  3:     // if ( locaddr/24 == remaddr/24 )
+  4:     if ((locaddr & 0x00ffffff) == (remaddr & 0x00ffffff))
+  5:         printk("create-path: locaddr(%pI4) remaddr(%pI4)\n");
+  6:     else
+  7:       continue;
+  8:     end if
+  9:     mptcp_create_sub-path(locaddr, remaddr);
+10:   end for
+11: end for
+----------------------------------------------------------------------------

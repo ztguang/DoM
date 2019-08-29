@@ -1,0 +1,41 @@
+The improved algorithm of multi-hop routing is detailed as follows.
+
+1. If the number of next hops from M1 to M5 is 3, then add 3 routing table entries, as represented in equation 4.
+The sub-algorithm 1 is as follows:
+num_nexthop:  The number of next hops.
+no_if: Network interface number, corresponding to network interface (e.g., e1,e2,e3).
+if (num_nexthop == 3 && no_if == 1) use the first hop
+if (num_nexthop == 3 && no_if == 2) use the second hop
+if (num_nexthop == 3 && no_if == 3) use the third hop
+
+2. If the number of next hops from M1 to M5 is 2, then add the following 3 routing table entries.
+nexthop via nexthop-ip-1 eth0 to 112.26.1.5
+nexthop via nexthop-ip-2 eth0 to 112.26.2.5
+nexthop via nexthop-ip-1 eth0 to 112.26.3.5
+The sub-algorithm 2 is as follows:
+if (num_nexthop == 2 && (no_if == 1 || no_if == 3)) use the first hop
+if (num_nexthop == 2 && no_if == 2) use the second hop
+
+3. If the number of next hops from M1 to M5 is 1, then add the following 3 routing table entries.
+nexthop via nexthop-ip-1 eth0 to 112.26.1.5
+nexthop via nexthop-ip-1 eth0 to 112.26.2.5
+nexthop via nexthop-ip-1 eth0 to 112.26.3.5
+The sub-algorithm 3 is as follows:
+if (num_nexthop == 1) use the first hop
+
+The above 3 sub-algorithms are summarized as follows.
+----------------------------------------------------------------------------
+Algorithm 1: Improving Multi-hop Routing Protocol
+----------------------------------------------------------------------------
+  1: // num_nexthop:  The number of next hops.
+  2: // no_if: Network interface number, corresponding to network interface (e.g., e1,e2,e3).
+  3: if (num_nexthop == 1 || (num_nexthop == 2 && (no_if == 1 || no_if == 3)) || (num_nexthop == 3 && no_if == 1))
+  4:     use the first hop
+  5: end if
+  6: if ((num_nexthop == 2 && no_if == 2) || (num_nexthop == 3 && no_if == 2))
+  7:     use the second hop
+  8: end if
+  9: if (num_nexthop == 3 && no_if == 3)
+10:     use the third hop
+11: end if
+----------------------------------------------------------------------------
