@@ -1,0 +1,31 @@
+17:00:34.822180 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [S], seq 746739866, win 29200, options [mss 1460,sackOK,TS val 4294813937 ecr 0,nop,wscale 7,mptcp join id 5 token 0xb697b9d8 nonce 0x70a62e96], length 0
+17:00:34.961974 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [S], seq 746739866, win 29200, options [mss 1460,sackOK,TS val 4294813937 ecr 0,nop,wscale 7,mptcp join id 5 token 0xb697b9d8 nonce 0x70a62e96], length 0
+17:00:35.028645 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [S], seq 746739866, win 29200, options [mss 1460,sackOK,TS val 4294813937 ecr 0,nop,wscale 7,mptcp join id 5 token 0xb697b9d8 nonce 0x70a62e96], length 0
+17:00:35.143921 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [S.], seq 3165522081, ack 746739867, win 65535, options [mss 1460,sackOK,TS val 68577 ecr 4294813937,nop,wscale 6,mptcp join id 5 hmac 0x86563cd91da36402 nonce 0x767b2bac], length 0
+17:00:35.196698 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [S.], seq 3165522081, ack 746739867, win 65535, options [mss 1460,sackOK,TS val 68577 ecr 4294813937,nop,wscale 6,mptcp join id 5 hmac 0x86563cd91da36402 nonce 0x767b2bac], length 0
+17:00:35.231636 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 1, win 913, options [nop,nop,TS val 4294814337 ecr 68577,mptcp join hmac 0x0658a1a4ba17b9341d4604c566e33c7d3bb3fb39], length 0
+17:00:35.236662 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 1, win 913, options [nop,nop,TS val 4294814337 ecr 68577,mptcp join hmac 0x0658a1a4ba17b9341d4604c566e33c7d3bb3fb39], length 0
+17:03:39.040284 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 1:2, ack 1, win 4017, options [nop,nop,TS val 252482 ecr 4294814337,mptcp dss ack 2376860491 seq 116031161 subseq 1 len 1 csum 0x3719], length 1
+17:03:39.042142 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 2, win 913, options [nop,nop,TS val 30883 ecr 252482,mptcp dss ack 116031162], length 0
+17:03:39.053995 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 2, win 913, options [nop,nop,TS val 30883 ecr 252482,mptcp dss ack 116031162], length 0
+17:03:39.423594 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [P.], seq 1:220, ack 2, win 913, options [nop,nop,TS val 31264 ecr 252482,mptcp dss ack 116031162 seq 2376860495 subseq 1 len 219 csum 0x30ec], length 219
+17:03:39.450851 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [P.], seq 1:220, ack 2, win 913, options [nop,nop,TS val 31264 ecr 252482,mptcp dss ack 116031162 seq 2376860495 subseq 1 len 219 csum 0x30ec], length 219
+17:03:39.478801 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 220, win 4017, options [nop,nop,TS val 252998 ecr 31264,mptcp dss ack 2376860714], length 0
+17:03:39.533814 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 2:6, ack 220, win 4017, options [nop,nop,TS val 252999 ecr 31264,mptcp dss ack 2376860714 seq 116031162 subseq 2 len 4 csum 0x4337], length 4
+17:03:39.535942 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 6, win 913, options [nop,nop,TS val 31376 ecr 252999,mptcp dss ack 116031166], length 0
+17:03:39.554778 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 6, win 913, options [nop,nop,TS val 31376 ecr 252999,mptcp dss ack 116031166], length 0
+17:03:39.641355 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 6:228, ack 220, win 4017, options [nop,nop,TS val 253102 ecr 31264,mptcp dss ack 2376860714 seq 116031166 subseq 6 len 222 csum 0x6956], length 222
+17:03:39.643823 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 228, win 916, options [nop,nop,TS val 31484 ecr 253102,mptcp dss ack 116031388], length 0
+17:03:39.650687 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 228, win 916, options [nop,nop,TS val 31484 ecr 253102,mptcp dss ack 116031388], length 0
+17:03:39.662798 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [P.], seq 220:221, ack 228, win 916, options [nop,nop,TS val 31485 ecr 253102,mptcp dss ack 116031388 seq 2376860714 subseq 220 len 1 csum 0x99d4], length 1
+17:03:39.732435 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [P.], seq 220:221, ack 228, win 916, options [nop,nop,TS val 31485 ecr 253102,mptcp dss ack 116031388 seq 2376860714 subseq 220 len 1 csum 0x99d4], length 1
+17:03:39.741103 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [F.], seq 228, ack 221, win 4017, options [nop,nop,TS val 253280 ecr 31485,mptcp dss fin ack 2376860715 seq 116031388 subseq 0 len 1 csum 0x4337], length 0
+17:03:39.763070 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 228, win 916, options [nop,nop,TS val 31486 ecr 253102,mptcp dss fin ack 116031388 seq 2376860715 subseq 0 len 1 csum 0xaaaf], length 0
+17:03:39.777225 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 229, win 916, options [nop,nop,TS val 31584 ecr 253280,mptcp dss ack 116031389], length 0
+17:03:39.823127 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 228, win 916, options [nop,nop,TS val 31486 ecr 253102,mptcp dss fin ack 116031388 seq 2376860715 subseq 0 len 1 csum 0xaaaf], length 0
+17:03:39.845080 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 221, win 4017, options [nop,nop,TS val 253371 ecr 31486,mptcp dss ack 2376860716], length 0
+17:03:39.848590 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [F.], seq 221, ack 229, win 916, options [nop,nop,TS val 31688 ecr 253280,mptcp dss ack 116031389], length 0
+17:03:39.857513 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 229, win 916, options [nop,nop,TS val 31584 ecr 253280,mptcp dss ack 116031389], length 0
+17:03:39.951489 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [F.], seq 221, ack 229, win 916, options [nop,nop,TS val 31688 ecr 253280,mptcp dss ack 116031389], length 0
+17:03:40.019219 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 222, win 4017, options [nop,nop,TS val 253499 ecr 31688,mptcp dss ack 2376860716], length 0
+

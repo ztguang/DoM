@@ -1,0 +1,45 @@
+17:00:34.907384 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [S], seq 746739866, win 29200, options [mss 1460,sackOK,TS val 4294813937 ecr 0,nop,wscale 7,mptcp join id 5 token 0xb697b9d8 nonce 0x70a62e96], length 0
+17:00:34.960176 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [S], seq 746739866, win 29200, options [mss 1460,sackOK,TS val 4294813937 ecr 0,nop,wscale 7,mptcp join id 5 token 0xb697b9d8 nonce 0x70a62e96], length 0
+17:00:35.028525 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [S], seq 746739866, win 29200, options [mss 1460,sackOK,TS val 4294813937 ecr 0,nop,wscale 7,mptcp join id 5 token 0xb697b9d8 nonce 0x70a62e96], length 0
+17:00:35.075164 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [S.], seq 3165522081, ack 746739867, win 65535, options [mss 1460,sackOK,TS val 68577 ecr 4294813937,nop,wscale 6,mptcp join id 5 hmac 0x86563cd91da36402 nonce 0x767b2bac], length 0
+17:00:35.143814 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [S.], seq 3165522081, ack 746739867, win 65535, options [mss 1460,sackOK,TS val 68577 ecr 4294813937,nop,wscale 6,mptcp join id 5 hmac 0x86563cd91da36402 nonce 0x767b2bac], length 0
+17:00:35.198448 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [S.], seq 3165522081, ack 746739867, win 65535, options [mss 1460,sackOK,TS val 68577 ecr 4294813937,nop,wscale 6,mptcp join id 5 hmac 0x86563cd91da36402 nonce 0x767b2bac], length 0
+17:00:35.233476 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 1, win 913, options [nop,nop,TS val 4294814337 ecr 68577,mptcp join hmac 0x0658a1a4ba17b9341d4604c566e33c7d3bb3fb39], length 0
+17:03:38.939652 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 1:2, ack 1, win 4017, options [nop,nop,TS val 252482 ecr 4294814337,mptcp dss ack 2376860491 seq 116031161 subseq 1 len 1 csum 0x3719], length 1
+17:03:38.985818 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 1:2, ack 1, win 4017, options [nop,nop,TS val 252482 ecr 4294814337,mptcp dss ack 2376860491 seq 116031161 subseq 1 len 1 csum 0x3719], length 1
+17:03:39.040170 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 1:2, ack 1, win 4017, options [nop,nop,TS val 252482 ecr 4294814337,mptcp dss ack 2376860491 seq 116031161 subseq 1 len 1 csum 0x3719], length 1
+17:03:39.045529 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 2, win 913, options [nop,nop,TS val 30883 ecr 252482,mptcp dss ack 116031162], length 0
+17:03:39.050796 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 2, win 913, options [nop,nop,TS val 30883 ecr 252482,mptcp dss ack 116031162], length 0
+17:03:39.448740 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [P.], seq 1:220, ack 2, win 913, options [nop,nop,TS val 31264 ecr 252482,mptcp dss ack 116031162 seq 2376860495 subseq 1 len 219 csum 0x30ec], length 219
+17:03:39.449041 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [P.], seq 1:220, ack 2, win 913, options [nop,nop,TS val 31264 ecr 252482,mptcp dss ack 116031162 seq 2376860495 subseq 1 len 219 csum 0x30ec], length 219
+17:03:39.452505 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 220, win 4017, options [nop,nop,TS val 252998 ecr 31264,mptcp dss ack 2376860714], length 0
+17:03:39.475408 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 220, win 4017, options [nop,nop,TS val 252998 ecr 31264,mptcp dss ack 2376860714], length 0
+17:03:39.478689 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 220, win 4017, options [nop,nop,TS val 252998 ecr 31264,mptcp dss ack 2376860714], length 0
+17:03:39.482688 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 2:6, ack 220, win 4017, options [nop,nop,TS val 252999 ecr 31264,mptcp dss ack 2376860714 seq 116031162 subseq 2 len 4 csum 0x4337], length 4
+17:03:39.531906 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 2:6, ack 220, win 4017, options [nop,nop,TS val 252999 ecr 31264,mptcp dss ack 2376860714 seq 116031162 subseq 2 len 4 csum 0x4337], length 4
+17:03:39.533700 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 2:6, ack 220, win 4017, options [nop,nop,TS val 252999 ecr 31264,mptcp dss ack 2376860714 seq 116031162 subseq 2 len 4 csum 0x4337], length 4
+17:03:39.553136 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 6, win 913, options [nop,nop,TS val 31376 ecr 252999,mptcp dss ack 116031166], length 0
+17:03:39.553381 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 6, win 913, options [nop,nop,TS val 31376 ecr 252999,mptcp dss ack 116031166], length 0
+17:03:39.618275 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 6:228, ack 220, win 4017, options [nop,nop,TS val 253102 ecr 31264,mptcp dss ack 2376860714 seq 116031166 subseq 6 len 222 csum 0x6956], length 222
+17:03:39.639460 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 6:228, ack 220, win 4017, options [nop,nop,TS val 253102 ecr 31264,mptcp dss ack 2376860714 seq 116031166 subseq 6 len 222 csum 0x6956], length 222
+17:03:39.641241 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [P.], seq 6:228, ack 220, win 4017, options [nop,nop,TS val 253102 ecr 31264,mptcp dss ack 2376860714 seq 116031166 subseq 6 len 222 csum 0x6956], length 222
+17:03:39.647442 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 228, win 916, options [nop,nop,TS val 31484 ecr 253102,mptcp dss ack 116031388], length 0
+17:03:39.647669 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 228, win 916, options [nop,nop,TS val 31484 ecr 253102,mptcp dss ack 116031388], length 0
+17:03:39.730341 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [P.], seq 220:221, ack 228, win 916, options [nop,nop,TS val 31485 ecr 253102,mptcp dss ack 116031388 seq 2376860714 subseq 220 len 1 csum 0x99d4], length 1
+17:03:39.730746 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [P.], seq 220:221, ack 228, win 916, options [nop,nop,TS val 31485 ecr 253102,mptcp dss ack 116031388 seq 2376860714 subseq 220 len 1 csum 0x99d4], length 1
+17:03:39.735568 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [F.], seq 228, ack 221, win 4017, options [nop,nop,TS val 253280 ecr 31485,mptcp dss fin ack 2376860715 seq 116031388 subseq 0 len 1 csum 0x4337], length 0
+17:03:39.737328 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [F.], seq 228, ack 221, win 4017, options [nop,nop,TS val 253280 ecr 31485,mptcp dss fin ack 2376860715 seq 116031388 subseq 0 len 1 csum 0x4337], length 0
+17:03:39.740928 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [F.], seq 228, ack 221, win 4017, options [nop,nop,TS val 253280 ecr 31485,mptcp dss fin ack 2376860715 seq 116031388 subseq 0 len 1 csum 0x4337], length 0
+17:03:39.820793 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 228, win 916, options [nop,nop,TS val 31486 ecr 253102,mptcp dss fin ack 116031388 seq 2376860715 subseq 0 len 1 csum 0xaaaf], length 0
+17:03:39.821163 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 228, win 916, options [nop,nop,TS val 31486 ecr 253102,mptcp dss fin ack 116031388 seq 2376860715 subseq 0 len 1 csum 0xaaaf], length 0
+17:03:39.827432 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 221, win 4017, options [nop,nop,TS val 253371 ecr 31486,mptcp dss ack 2376860716], length 0
+17:03:39.843164 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 221, win 4017, options [nop,nop,TS val 253371 ecr 31486,mptcp dss ack 2376860716], length 0
+17:03:39.844967 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 221, win 4017, options [nop,nop,TS val 253371 ecr 31486,mptcp dss ack 2376860716], length 0
+17:03:39.853421 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 229, win 916, options [nop,nop,TS val 31584 ecr 253280,mptcp dss ack 116031389], length 0
+17:03:39.853662 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [.], ack 229, win 916, options [nop,nop,TS val 31584 ecr 253280,mptcp dss ack 116031389], length 0
+17:03:39.949466 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [F.], seq 221, ack 229, win 916, options [nop,nop,TS val 31688 ecr 253280,mptcp dss ack 116031389], length 0
+17:03:39.949702 IP 112.26.3.8.33535 > 112.26.3.1.targus-getdata1: Flags [F.], seq 221, ack 229, win 916, options [nop,nop,TS val 31688 ecr 253280,mptcp dss ack 116031389], length 0
+17:03:39.977186 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 222, win 4017, options [nop,nop,TS val 253499 ecr 31688,mptcp dss ack 2376860716], length 0
+17:03:40.016456 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 222, win 4017, options [nop,nop,TS val 253499 ecr 31688,mptcp dss ack 2376860716], length 0
+17:03:40.019106 IP 112.26.3.1.targus-getdata1 > 112.26.3.8.33535: Flags [.], ack 222, win 4017, options [nop,nop,TS val 253499 ecr 31688,mptcp dss ack 2376860716], length 0
+
