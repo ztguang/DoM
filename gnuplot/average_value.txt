@@ -2,55 +2,55 @@ hetero TCP-MDR eth0 0.211261
 
 hetero MPTCP-FullPath-MDR eth0 2.56913
 
-hetero MPTCP-FullPath-xIF-MDR eth1 4.64583
 hetero MPTCP-FullPath-xIF-MDR eth0 4.49307
+hetero MPTCP-FullPath-xIF-MDR eth1 4.64583
 hetero MPTCP-FullPath-xIF-MDR eth2 4.21198
 hetero MPTCP-FullPath-xIF-MDR eth3 4.22481
 
-hetero MPTCP-PartPath-xIF-MDR eth1 6.42986
 hetero MPTCP-PartPath-xIF-MDR eth0 6.31826
+hetero MPTCP-PartPath-xIF-MDR eth1 6.42986
 hetero MPTCP-PartPath-xIF-MDR eth2 6.31504
 hetero MPTCP-PartPath-xIF-MDR eth3 6.17655
 
-hetero MPTCP-Markov-F-xIF-MDR eth1 8.62725
 hetero MPTCP-Markov-F-xIF-MDR eth0 8.72357
+hetero MPTCP-Markov-F-xIF-MDR eth1 8.62725
 hetero MPTCP-Markov-F-xIF-MDR eth2 8.45373
 hetero MPTCP-Markov-F-xIF-MDR eth3 8.32602
 
-hetero MPTCP-Markov-P-xIF-MDR eth1 10.3935
 hetero MPTCP-Markov-P-xIF-MDR eth0 10.5982
+hetero MPTCP-Markov-P-xIF-MDR eth1 10.3935
 hetero MPTCP-Markov-P-xIF-MDR eth2 10.1571
 hetero MPTCP-Markov-P-xIF-MDR eth3 10.2759
 
-hetero Improved-MPTCP-Markov-F-xIF-MDR eth1 12.5753
-hetero Improved-MPTCP-Markov-F-xIF-MDR eth0 12.6794
+hetero Partflow-MPTCP-Markov-F-xIF-MDR eth0 12.6794
+hetero Partflow-MPTCP-Markov-F-xIF-MDR eth1 12.5753
 
-hetero Improved-MPTCP-Markov-P-xIF-MDR eth1 14.3855
-hetero Improved-MPTCP-Markov-P-xIF-MDR eth0 14.2713
+hetero Partflow-MPTCP-Markov-P-xIF-MDR eth0 14.2713
+hetero Partflow-MPTCP-Markov-P-xIF-MDR eth1 14.3855
+
 
 
 homo TCP-MDR eth0 0.662748
 
 homo MPTCP-FullPath-MDR eth0 2.4352
 
-homo MPTCP-FullPath-xIF-MDR eth1 4.54212
 homo MPTCP-FullPath-xIF-MDR eth0 4.72434
+homo MPTCP-FullPath-xIF-MDR eth1 4.54212
 homo MPTCP-FullPath-xIF-MDR eth2 5.27096
 homo MPTCP-FullPath-xIF-MDR eth3 4.28319
 
-homo MPTCP-PartPath-xIF-MDR eth1 6.78674
 homo MPTCP-PartPath-xIF-MDR eth0 6.47639
+homo MPTCP-PartPath-xIF-MDR eth1 6.78674
 homo MPTCP-PartPath-xIF-MDR eth2 6.7637
 homo MPTCP-PartPath-xIF-MDR eth3 6.41766
 
-homo MPTCP-Markov-F-xIF-MDR eth1 8.72521
 homo MPTCP-Markov-F-xIF-MDR eth0 8.58101
+homo MPTCP-Markov-F-xIF-MDR eth1 8.72521
 homo MPTCP-Markov-F-xIF-MDR eth2 8.44354
 homo MPTCP-Markov-F-xIF-MDR eth3 8.45102
 
-homo MPTCP-Markov-P-xIF-MDR eth1 11.0486
 homo MPTCP-Markov-P-xIF-MDR eth0 10.4938
+homo MPTCP-Markov-P-xIF-MDR eth1 11.0486
 homo MPTCP-Markov-P-xIF-MDR eth2 11.1805
 homo MPTCP-Markov-P-xIF-MDR eth3 10.0818
-
 
