@@ -22,20 +22,20 @@ set xrange [0:186]
 set xtics 20		# 设置时间轴的间隔，以 秒 为单位， 这里设置的是一个小时
 set mxtics 4		# 每两个主刻度之间被分刻度分为6份
 
-set yrange [0:12]
-#set ytics (0,2,4,6,8,10,12)
-#set ytics 0,1,12
-set ytics ('0s' 0,'2s' 2, '0s' 4, '2s' 6, '0s' 8, '2s' 10)
+set yrange [0:16]
+#set ytics (0,2,4,6,8,10,12,14,16)
+#set ytics 0,1,16
+set ytics ('0s' 0,'2s' 2, '0s' 4, '2s' 6, '0s' 8, '2s' 10, '0s' 12, '2s' 14)
 #set mytics 2
 
-set y2range [0:12]
-set y2tics ('0s' 2, '2s' 4, '0s' 6, '2s' 8, '0s' 10, '2s' 12)
+set y2range [0:16]
+set y2tics ('0s' 2, '2s' 4, '0s' 6, '2s' 8, '0s' 10, '2s' 12, '0s' 14, '2s' 16)
 #set my2tics 2
 
 # set title "SITE.com Web Traffic"
 
 set datafile separator " "
-set terminal png size 900,800
+set terminal png size 900,1000
 set ylabel "The time from sending a packet to receiving its acknowledgment packet\n(M1 <---> M8)"
 set xlabel "Time (experiments in heterogeneous network)"
 
@@ -47,6 +47,8 @@ set label 3 at  2,5.2  'MPTCP-FullPath-xIF-MDR'
 set label 4 at  2,7.2  'MPTCP-PartPath-xIF-MDR'
 set label 5 at  2,9.2  'MPTCP-Markov-F-xIF-MDR'
 set label 6 at  2,11.2 'MPTCP-Markov-P-xIF-MDR'
+set label 7 at  2,13.2 'Partflow-MPTCP-Markov-F-xIF-MDR'
+set label 8 at  2,15.2 'Partflow-MPTCP-Markov-P-xIF-MDR'
 
 #---------------------------------------------------------------------------------------------------------- 平均值
 
@@ -92,6 +94,16 @@ set arrow from 1,10.1571 to 146,10.1571  nohead front ls 10 lt 0 lc "blue"
 set label 64 at 166,10.2759 '0.2759 s'
 set arrow from 1,10.2759 to 166,10.2759  nohead front ls 10 lt 0 lc "orange"
 
+set label 71 at 146,12.6794 '0.6794 s'
+set arrow from 1,12.6794 to 146,12.6794  nohead front ls 10 lt 0 lc "green"
+set label 72 at 166,12.5753 '0.5753 s'
+set arrow from 1,12.5753 to 166,12.5753  nohead front ls 10 lt 0 lc "purple"
+
+set label 81 at 126,14.2713 '0.2713 s'
+set arrow from 1,14.2713 to 126,14.2713  nohead front ls 10 lt 0 lc "green"
+set label 82 at 146,14.3855 '0.3855 s'
+set arrow from 1,14.3855 to 146,14.3855  nohead front ls 10 lt 0 lc "purple"
+
 #----------------------------------------------------------------------------------------------------------
 
 
@@ -123,7 +135,12 @@ plot \
      "/mnt/data/新乡学院/paper/paper-1---Data-over-MANETs---tcpdump-capture-files/Data-over-MANETs---tcpdump-on-8-nodes--hetero---using-nc/MPTCP-Markov-P-xIF-MDR/time-ack-seq--M1--eth0--output---2-columns-ok.txt" using 1:2 with lines lw 1 lt 1 lc "green" title 'eth0', \
      "/mnt/data/新乡学院/paper/paper-1---Data-over-MANETs---tcpdump-capture-files/Data-over-MANETs---tcpdump-on-8-nodes--hetero---using-nc/MPTCP-Markov-P-xIF-MDR/time-ack-seq--M1--eth1--output---2-columns-ok.txt" using 1:2 with lines lw 1 lt 2 lc "purple" title 'eth1', \
      "/mnt/data/新乡学院/paper/paper-1---Data-over-MANETs---tcpdump-capture-files/Data-over-MANETs---tcpdump-on-8-nodes--hetero---using-nc/MPTCP-Markov-P-xIF-MDR/time-ack-seq--M1--eth2--output---2-columns-ok.txt" using 1:2 with lines lw 1 lt 3 lc "blue" title 'eth2', \
-     "/mnt/data/新乡学院/paper/paper-1---Data-over-MANETs---tcpdump-capture-files/Data-over-MANETs---tcpdump-on-8-nodes--hetero---using-nc/MPTCP-Markov-P-xIF-MDR/time-ack-seq--M1--eth3--output---2-columns-ok.txt" using 1:2 with lines lw 1 lt 4 lc "orange" title 'eth3'
+     "/mnt/data/新乡学院/paper/paper-1---Data-over-MANETs---tcpdump-capture-files/Data-over-MANETs---tcpdump-on-8-nodes--hetero---using-nc/MPTCP-Markov-P-xIF-MDR/time-ack-seq--M1--eth3--output---2-columns-ok.txt" using 1:2 with lines lw 1 lt 4 lc "orange" title 'eth3', \
+     "/mnt/data/新乡学院/paper/paper-1---Data-over-MANETs---tcpdump-capture-files/Data-over-MANETs---tcpdump-on-8-nodes--hetero---using-nc/Improved-MPTCP-Markov-F-xIF-MDR/time-ack-seq--M1--eth0--output---2-columns-ok.txt" using 1:2 with lines lw 1 lt 1 lc "green" title '', \
+     "/mnt/data/新乡学院/paper/paper-1---Data-over-MANETs---tcpdump-capture-files/Data-over-MANETs---tcpdump-on-8-nodes--hetero---using-nc/Improved-MPTCP-Markov-F-xIF-MDR/time-ack-seq--M1--eth1--output---2-columns-ok.txt" using 1:2 with lines lw 1 lt 2 lc "purple" title '', \
+     "/mnt/data/新乡学院/paper/paper-1---Data-over-MANETs---tcpdump-capture-files/Data-over-MANETs---tcpdump-on-8-nodes--hetero---using-nc/Improved-MPTCP-Markov-P-xIF-MDR/time-ack-seq--M1--eth0--output---2-columns-ok.txt" using 1:2 with lines lw 1 lt 1 lc "green" title '', \
+     "/mnt/data/新乡学院/paper/paper-1---Data-over-MANETs---tcpdump-capture-files/Data-over-MANETs---tcpdump-on-8-nodes--hetero---using-nc/Improved-MPTCP-Markov-P-xIF-MDR/time-ack-seq--M1--eth1--output---2-columns-ok.txt" using 1:2 with lines lw 1 lt 2 lc "purple" title ''
+
 
 # using 1:2 with lines lw 1 lt 3 lc "blue" title 'hosta'
 # linestyle   连线风格（包括linetype，linewidth等）
@@ -132,5 +149,4 @@ plot \
 # linecolor   连线颜色
 # pointtype   点的种类
 # pointsize   点的大小
-
 
